@@ -18,7 +18,7 @@ class Wayback extends Plugin {
 	function hook_article_button($line) {
 		return "<i id='SHARE-IMG-".$line['int_id']."' class='material-icons'
 			style='cursor : pointer'
-			title='".__('Save article to the Wayback Machine')."' onclick=\"window.open('https://web.archive.org/save/". $line['link'] ."', '_blank')\">save</i>";
+			title='".__('Save article to the Wayback Machine')."' onclick=\"window.open('https://web.archive.org/save/". urlencode($line['link')] ."', '_blank')\">save</i>";
 	}
 
 	function api_version() {
