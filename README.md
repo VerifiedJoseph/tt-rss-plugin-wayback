@@ -1,4 +1,5 @@
 ## Save to the Wayback Machine TT-RSS Plugin
+![Screenshot](image.png)
 
 This plugin adds a button for saving articles to the [Internet Archive's Wayback Machine](https://web.archive.org/) to [Tiny Tiny RSS](https://tt-rss.org/).
 
